@@ -130,13 +130,13 @@ This, generates the following plots for the first order fit, and modified and re
 \caption{Third-order polynomial fit, showing fit curve and one standard deviation above and below}
 \label{fig:thirdorder}
 \end{figure}
-
+From these graphs, we can qualitatively see that the standard deviation for each fit extrapolated beyond the data sets increases more rapidly for higher-order polynomials.
+\\\\
 We can also generate chi-squared values for each of these fits, using the following code:
 \begin{lstlisting}
 sum(((y - polynomial(x, *theta_hat))/sig)**2)
 \end{lstlisting}
 The chi-squared values and degrees of freedom for each fit are tabulated below:
-
 \begin{table}[h!]
 \centering
 \begin{tabular}{lll}
@@ -145,9 +145,11 @@ Polynomial Order & Chi-Squared       & Degrees of Freedom \\ \hline
 1                & 8.2515361178354   & 7                  \\
 2                & 6.842115296038535 & 6                  \\
 3                & 3.747761582200386 & 5                  \\ \hline
-\end{tabular}
-\end{table}
 
+\end{tabular}
+\caption{\label{tab:chi-sq}Chi-square values and degrees of freedom for each fit.}
+\end{table}
+\newpage
 \begin{appendix}
 \section{Python Code}\label{sec:python}
 The complete code used in this exercise is presented below, as well as the text outputs of the script:
