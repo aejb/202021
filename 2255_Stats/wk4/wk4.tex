@@ -52,8 +52,7 @@ Introduction to Statistical Methods\\Exercise 4}
 \subsection{Question 1}
 Using Kirchoff's first law to sum the voltages around the LCR circuit:
 \begin{equation}
-V = IZ = I\left(R+i\omega L+
-frac1{i\omega C}\right)
+V = IZ = I\left(R+i\omega L+\frac{•}{•}\omega C}\right)
 \end{equation}
 We can rewrite this in differential form:
 \begin{equation}
@@ -105,14 +104,92 @@ At low frequencies, the Capacitor term $1/\omega C$ dominates.
 \includegraphics[scale=0.2]{circuit.png}
 
 \subsection{Question 8}
+\begin{figure}[h]
 \includegraphics[scale=0.8]{v1.png}
+\caption{The voltage $V_1$ plotted against the driving frequency of the AFG}
+\end{figure}
 
-This plot, showing how $V_1$ changes as we change the AFG frequency, takes the form of a $y=\sqrt x$ function. As $V_1$ takes the potential difference over the entire LCR circuit, we include both the resistance, inductance, and capacitance of the three components into account when using Equation 4
+This plot, showing how $V_1$ changes as we change the AFG frequency, takes the form of a $y=\sqrt x$ function. As $V_1$ takes the potential difference over the entire LCR circuit, we include both the resistance, inductance, and capacitance of the three components into account when using Equation 4.
 
-\begin{appendix}
-\section{Python Code}\label{sec:python}
-%\lstinputlisting[language=Python,frame=single]{py.py}%
+We need to measure the $V_1$ across the whole circuit, rather than using the AFG's setting, as there are impedance/resistive effects from the wires connecting the components, and the electronics inside the AFG.
 
-\end{appendix}
+We can apply Ohm's law ($V=IR$) to the resistor, using $V_2$, to find the current through the resistor. As the circuit is in series, the current through the resistor is the same as the current through each component of the circuit.
+
+\subsection{Question 9}
+\begin{figure}[h]
+\includegraphics[scale=0.8]{phase.png}
+\caption{The phase different $\Delta\phi$ plotted against the driving frequency of the AFG}
+\end{figure}
+
+From the equation given in the lab script:
+\begin{equation}
+\Delta\phi=\tan^{-1}[(\omega L-1/\omega C)/R]
+\end{equation}
+We can see that as $f\rightarrow0$, the arctan will approach 90 degrees, and as $f\rightarrow\infty$, the arctan approaches -90 degrees.
+
+\subsection{Question 10}
+\begin{figure}[h]
+\includegraphics[scale=0.8]{qfac.png}
+\caption{$(V_2/V_1)^2$ plotted against the driving frequency of the AFG}
+\end{figure}
+
+Estimating values either side of resonance where $(V_2/V_1)^2$ are at half maximum:
+
+$f_1\approx69050 Hz$
+
+$f_2\approx74500 Hz$
+
+Using these, we can estimate the quality factor of the resonance using the equation provided in the lab script:
+\begin{equation}
+Q=\frac{\omega_0}{\Delta\omega}=\frac{f_0}{\Delta f}
+\end{equation}
+Where $\Delta f=f_2-f_1$
+
+Using this, we obtain a value of $Q=13.06$
+
+However, if we use the equation involving $L$ and $R$:
+\begin{equation}
+Q=\frac{\omega_1L}R
+\end{equation}
+We obtain a value of $Q=3.56$. While these differ, both are above the critical $Q=\frac12$ value, indicating that this is an underdamped system. 
+
+\subsection{Question 11}
+Using Equation 3 to find an estimate of $f_0$ for a system with $L=5 mH$, $C=1 nF$, and $R-200 \Omega$, we obtain $f_0=71,176.25 Hz$, the same value as before. This is because we are only changing the resistor, which has no effect using Equation 3. Using the AFG simulator, we do in fact obtain the same experimental value of $f_0$. Because of this, we can use the same $f_\text{max}$ and $f_\text{min}$ as before.
+\begin{figure}[h]
+\includegraphics[scale=0.8]{qfac2.png}
+\caption{$(V_2/V_1)^2$ plotted against the driving frequency of the AFG}
+\end{figure}
+
+If we again estimate $f_1$ and $f_2$ at half-maximum height:
+
+$f_1=66500 Hz$
+
+$f_2=75050 Hz$
+
+From these values, we obtain a value of $Q=8.32$, again an underdamped system. If we use Equation 7, we obtain a value of $Q=1.78$
+\newpage
+\subsection{Question 12}
+\begin{figure}[!h]
+\includegraphics[scale=0.8]{res1.png}
+\caption{$(V_2/V_1)^2$ plotted against the driving frequency of the AFG for $L=5\times10^{-3} H$, $C=1\times10^{-9}$, and  $R=100 \Omega$, and the fitted curve}
+\end{figure}
+\begin{figure}[!h]
+\includegraphics[scale=0.8]{res2.png}
+\caption{$(V_2/V_1)^2$ plotted against the driving frequency of the AFG for $L=5\times10^{-3} H$, $C=1\times10^{-9}$, and  $R=200 \Omega$, and the fitted curve}
+\end{figure}
+
+\subsection{Question 13}
+
+For the first fit, the values obtained were $f_0=71.18kHz$, $Q=-16.49$, and $R'=-235.27$. 
+
+For the second fit, these values were $f_0=71.18kHz$, $Q=-9.48$, and $R'=-217.56$.
+
+These values can be related to $R$, $L$, and $C$ using the following equations:
+\begin{equation}
+Q=\omega_0L/(R+R')
+\end{equation}
+\begin{equation}
+\omega_0=\sqrt{\frac1{LC}}
+\end{equation}
 
 \end{document}
