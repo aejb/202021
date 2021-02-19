@@ -49,7 +49,7 @@ Introduction to Statistical Methods\\Lab 2\\X-Ray Diffraction}
 \maketitle
 
 \begin{abstract}
-To explore the structure of atoms in crystals, one cannot employ the traditional methods of optical microscopes: the atoms, and the crystal lattice they form, are smaller than the wavelengths of light. Therefore, we must probe the structure of these crystals using radiation of a shorter wavelength. In this case: X-Rays. By employing techniques developed by von Laue and Bragg, the phenomenon of constructive interference with crystal diffraction can be used to determine the crystal diffraction spacing of four alkali halide crystals; LiF, NaCl, KCl, and RbCl.
+To explore the structure of atoms in crystals, one cannot employ the traditional methods of optical microscopes: the atoms, and the crystal lattice they form, are smaller than the wavelengths of light. Therefore, we must probe the structure of these crystals using radiation of a shorter wavelength. In this case: X-Rays. By employing techniques developed by von Laue and Bragg, the phenomenon of constructive interference with crystal diffraction can be used to determine the crystal diffraction spacing of four alkali halide crystals; LiF, NaCl, KCl, and RbCl, and to estimate the relative sizes of $Na^+$, $K^+$, and $Rb^+$ cations.
 \end{abstract}
 
 \section{Equipment}
@@ -119,14 +119,33 @@ From this graph, one can see that the peaks corresponding to the $Cu-K_\alpha$ l
 
 The same method can be repeated for NaCl\footnotemark[1], KCl\footnotemark[2], and RbCl\footnotemark[2] crystals.
 
+\footnotetext[1]{Data obtained with permission from Sean Hibbit}
+\footnotetext[2]{Data obtained with permission from Ethan Kosak-Hine}
+
+\begin{figure}[h!]
+\centerline{\includegraphics[scale=0.8]{nacl.png}}
+\caption{X-Ray diffraction pattern for $NaCl$, with and without the Nickel filter, between $\theta=5$ and $\theta=60$, using a time period of 3 seconds}
+\label{fig:nacl}
+\end{figure}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ccccc}
+\hline
+Angle $(\deg)$ & Wavelength $(m)$ & Order & Estimate $(m)$ & Estimate Error $(\Delta m)$\\ \hline
+14.3 & 1.392$\times10^{-10}$ & 1 & 2.818$\times10^{-10}$ & 1.454$\times10^{-11}$ \\
+15.9 & 1.542$\times10^{-10}$ & 1 & 2.814$\times10^{-10}$ & 1.493$\times10^{-11}$ \\
+29.6 & 1.392$\times10^{-10}$ & 2 & 2.818$\times10^{-10}$ & 1.620$\times10^{-11}$ \\
+33.15 & 1.542$\times10^{-10}$ & 2 & 2.820$\times10^{-10}$ & 1.684$\times10^{-11}$ \\
+\end{tabular}
+\caption{\label{tab:nacltab}Estimates for the $Cu-K_\beta$ and $Cu-K_\alpha$ interference peaks for $NaCl$ diffraction, with the estimated value $d$ for lattice separation}
+\end{table}
+
 \begin{figure}[h!]
 \centerline{\includegraphics[scale=0.8]{kcl.png}}
 \caption{X-Ray diffraction pattern for $KCl$, with and without the Nickel filter, between $\theta=5$ and $\theta=60$, using a time period of 3 seconds}
 \label{fig:kcl}
 \end{figure}
-
-\footnotetext[1]{Data obtained with permission from Sean Hibbit}
-\footnotetext[2]{Data obtained with permission from Ethan Kosak-Hine}
 
 \begin{table}[h!]
 \centering
@@ -171,12 +190,31 @@ From the same method as used with the $LiF$ crystal, we obtain the following ave
 \hline
 Crystal & Lattice Spacing Estimate $(m)$ & FCC Lattice Parameter $(m)$ \\ \hline
 $LiF$ & $(2.021\pm0.0641)\times10^{-10}$ & $(4.042\pm0.128)\times10^{-10}$ \\
-$NaCl$ & \\
+$NaCl$ & $(2.818\pm0.0781)\times10^{-10}$ & $(5.939\pm0.156)\times10^{-10}$ \\
 $KCl$ & $(3.141\pm0.0763)\times10^{-10}$ & $(6.282\pm0.153)\times10^{-10}$ \\
 $RbCl$ & $(3.300\pm0.0946)\times10^{-10}$ & $(6.600\pm0.189)\times10^{-10}$ \\
 \end{tabular}
-\caption{\label{tab:results}Estimated values $d$ for lattice separation for crystals $LiF$, $NaCl$, $KCl$, and $RbCl$, with error ranges.}
+\caption{\label{tab:results}Estimated values $d$ for lattice separation for crystals $LiF$, $NaCl$, $KCl$, and $RbCl$, with error ranges, and Face-Centered-Cubic lattice parameter $a=2d$.}
 \end{table}
 
+As the $LiF$ crystal contains $F^-$ ions, whereas the other three crystals contain $CL^-$ ions, we cannot directly relate the size of the $LiF$ lattice parameter to the $Li^+$ ion size. However, as the other three crystals contain $Cl^-$ ions, we can factor their size out, and compare the $Na^+$, $K^+$, and $Rb^+$ ion sizes with known values taken from Kittel, C. {\it Introduction to Solid State Physics} (8 ed.).
+
+\begin{flushright}
+{\it Cont. overleaf.}
+\end{flushright}
+\newpage
+\begin{table}[h!]
+\centering
+\begin{tabular}{ccccc}
+\hline
+Ion & Lattice spacing $(m\times10^{-10})$ & Relative size & Known size $(\r A)$ & Known relative size \\ \hline
+$Na^+$ & $2.818 \pm 0.0781$ & 1 & 0.98 & 1 \\
+$K^+$ & $3.141\pm0.0763$ & 1.115 & 1.33 & 1.357 \\
+$Rb^+$ & $3.3\pm0.0946$ & 1.171 & 1.48 & 1.510 \\
+\end{tabular}
+\caption{\label{tab:comparison}Comparing the calculated relative sizes of $Na^+$, $K^+$, and $Rb^+$ ions to known values.}
+\end{table}
+
+While these calculated relative sizes (relative to $Na^+$) do not perfectly line up to the known relative sizes, it is promising to see the expected increase. From looking at a periodic table, we see that $Na$, $K$, and $Rb$ are alkali metals of increasing electron configuration, and we would expect $Li^+$ ions to follow the trend, being smaller than $Na^+$, but we cannot conclude this due to the $F$ anion, rather than $Cl$ in the rest of the crystals. We can expect a linear progression of ion size, as each increasing electron orbital can be estimated to be the same size. 
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=pdflatex 2021.2.17)  18 FEB 2021 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=pdflatex 2021.2.17)  19 FEB 2021 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -343,52 +343,66 @@ LaTeX Info: Redefining \nameref on input line 48.
  [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<lif.png, id=28, 426.393pt x 155.782pt>
+<lif.png, id=34, 426.393pt x 155.782pt>
 File: lif.png Graphic file (type png)
 <use lif.png>
 Package pdftex.def Info: lif.png  used on input line 76.
 (pdftex.def)             Requested size: 341.11485pt x 124.62575pt.
-
+ [2 <./lif.png>]
 Overfull \hbox (16.03546pt too wide) in paragraph at lines 97--105
  [][] 
  []
 
-[2 <./lif.png>]
-<lifni.png, id=43, 426.393pt x 155.782pt>
+<lifni.png, id=49, 426.393pt x 155.782pt>
 File: lifni.png Graphic file (type png)
 <use lifni.png>
 Package pdftex.def Info: lifni.png  used on input line 113.
 (pdftex.def)             Requested size: 341.11485pt x 124.62575pt.
 
-
 LaTeX Warning: Command \r invalid in math mode on input line 118.
 
-<kcl.png, id=44, 426.393pt x 155.782pt>
-File: kcl.png Graphic file (type png)
-<use kcl.png>
-Package pdftex.def Info: kcl.png  used on input line 123.
+<nacl.png, id=50, 426.393pt x 155.782pt>
+File: nacl.png Graphic file (type png)
+<use nacl.png>
+Package pdftex.def Info: nacl.png  used on input line 126.
 (pdftex.def)             Requested size: 341.11485pt x 124.62575pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (16.03546pt too wide) in paragraph at lines 133--143
+Overfull \hbox (16.03546pt too wide) in paragraph at lines 133--141
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<rbcl.png, id=45, 426.393pt x 155.782pt>
-File: rbcl.png Graphic file (type png)
-<use rbcl.png>
-Package pdftex.def Info: rbcl.png  used on input line 147.
+<kcl.png, id=51, 426.393pt x 155.782pt>
+File: kcl.png Graphic file (type png)
+<use kcl.png>
+Package pdftex.def Info: kcl.png  used on input line 145.
 (pdftex.def)             Requested size: 341.11485pt x 124.62575pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (16.03546pt too wide) in paragraph at lines 154--162
+Overfull \hbox (16.03546pt too wide) in paragraph at lines 152--162
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<rbcl.png, id=52, 426.393pt x 155.782pt>
+File: rbcl.png Graphic file (type png)
+<use rbcl.png>
+Package pdftex.def Info: rbcl.png  used on input line 166.
+(pdftex.def)             Requested size: 341.11485pt x 124.62575pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (16.03546pt too wide) in paragraph at lines 173--181
  [][] 
  []
 
@@ -399,47 +413,49 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Text page 4 contains only floats.
 
-[4 <./kcl.png> <./rbcl.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+[4 <./nacl.png> <./kcl.png>] [5 <./rbcl.png>]
+
+LaTeX Warning: Command \r invalid in math mode on input line 210.
+
+
+Overfull \hbox (67.58041pt too wide) in paragraph at lines 208--215
+ [][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
  (./wk5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
-
-
-Package rerunfilecheck Warning: File `wk5.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `wk5.out':
-(rerunfilecheck)             Before: B0D105D961CCC11D73F04681B351DA1E;128
-(rerunfilecheck)             After:  EF66672918220C8FBF232B9B4C2F40A9;182.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package rerunfilecheck Info: File `wk5.out' has not changed.
+(rerunfilecheck)             Checksum: EF66672918220C8FBF232B9B4C2F40A9;182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
- 7341 strings out of 481644
- 107051 string characters out of 5929691
- 567118 words of memory out of 5000000
- 22918 multiletter control sequences out of 15000+600000
- 543239 words of font info for 61 fonts, out of 8000000 for 9000
+ 7367 strings out of 481644
+ 107314 string characters out of 5929691
+ 569118 words of memory out of 5000000
+ 22933 multiletter control sequences out of 15000+600000
+ 545036 words of font info for 67 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
- 34i,10n,40p,605b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,11n,40p,660b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.
 pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texm
-f/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></
-usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on wk5.pdf (5 pages, 207696 bytes).
+f/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.p
+fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf
+/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/a
+msfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on wk5.pdf (6 pages, 243830 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
