@@ -1,0 +1,60 @@
+\ifglsentryexists{qho}{}%
+{%
+\gls@defglossaryentry{qho}%
+{%
+name={QHO},%
+sort={QHO},%
+type={main},%
+first={QHO},%
+firstplural={QHOs},%
+text={QHO},%
+plural={QHOs},%
+description={Quantum Harmonic Oscillator},%
+descriptionplural={Quantum Harmonic Oscillator},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sho}{}%
+{%
+\gls@defglossaryentry{sho}%
+{%
+name={SHO},%
+sort={SHO},%
+type={main},%
+first={SHO},%
+firstplural={SHOs},%
+text={SHO},%
+plural={SHOs},%
+description={Simple (classical) Harmonic Oscillator},%
+descriptionplural={Simple (classical) Harmonic Oscillator},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

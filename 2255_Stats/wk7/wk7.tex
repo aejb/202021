@@ -1,0 +1,153 @@
+\documentclass[a4paper]{article}
+
+\title{PH2255 Course:\\
+Quantum Harmonic Oscillators}
+\author{Thomas Bass}
+\date{27 March 2021}
+
+% LaTeX preambule: loading relevant packages, configuring Python listings
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{bm}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+% Settings for colour-coding and formatting Python code:
+\lstset{
+  language=Python,                % the language of the code
+  basicstyle=\footnotesize,           % the size of the fonts that are used for the code
+  numbers=left,                   % where to put the line-numbers
+  numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+  stepnumber=5,                   % the step between two line-numbers. If it's 1, each line
+                                  % will be numbered
+  numbersep=5pt,                  % how far the line-numbers are from the code
+  backgroundcolor=\color{white},      % choose the background color. You must add \usepackage{color}
+  showspaces=false,               % show spaces adding particular underscores
+  showstringspaces=false,         % underline spaces within strings
+  showtabs=false,                 % show tabs within strings adding particular underscores
+  frame=single,                   % adds a frame around the code
+  rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+  tabsize=2,                      % sets default tabsize to 2 spaces
+  captionpos=b,                   % sets the caption-position to bottom
+  breaklines=true,                % sets automatic line breaking
+  breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+  title=\lstname,                   % show the filename of files included with \lstinputlisting;
+                                  % also try caption instead of title
+  keywordstyle=\color{blue},          % keyword style
+  commentstyle=\color{dkgreen},       % comment style
+  stringstyle=\color{mauve},         % string literal style
+  escapeinside={\%*}{*)},            % if you want to add LaTeX within your code
+  morekeywords={*,...}               % if you want to add more keywords to the set
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Every introduction into the paradigm of Quantum Mechanics culminates in the understanding of its mathematical cornerstone: the Schr\"odinger Equation. This equation governs the wave function of any system in quantum mechanics, which encapsulates all observable quantities of the system, most notably position and momentum. However, the Schr\"odinger equations themselves are not easily observable, or understood with day-to-day phenomena. To understand the effects of the Schr\"dinger equations, and the closely related Heisenberg Uncertainty Principles, we can apply the concepts of the classical harmonic oscillator (governed by Hooke's law) to the quantum realm. This allows us to understand the vibrational motion of atoms, and is one of very few quantum systems for which we can derive exact analytical solutions.
+\end{abstract}
+
+\section{TISE and Hooke's Law}
+
+To begin our understanding of the quantum harmonic oscillator (QHM), we begin - as most analysis of quantum mechanics does - with the Schr\"odinger Equations, specifically the Time-Independent (TISE) form, in one dimension:
+
+\begin{equation} \label{eq:1}
+\frac{-\hbar^2}{2m}\nabla^2\psi(x) + V(x)\psi(x)=E\psi(x)
+\end{equation} 
+This notation uses the {\it nabla} function, as defined by $\nabla f(\vec r) = \frac{\partial f}{\partial \vec r}$. Next, we introduce our model of the atom as a harmonic oscillator. Hooke's law gives us a model for the force needed to extend or compress a spring by a distance $x$ as $F=kx$. From this, by using simple differentiation, we can calculate the work done to compress the spring as $W=\frac12kx^2$. 
+
+To apply this spring model to an atom, we first interpret the work done on the spring as the change in potential energy, $\Delta PE$, and then assign it to the potential variable, $V(x)$, in one dimension. Next, we analyse the spring constant not as a classical characteristic of a spring's stiffness, but in terms of angular frequency, using $\omega =\sqrt{k/m}$:
+
+\begin{equation} \label{eq:2}
+V(x)=\frac12kx^2=\frac12m\omega^2x^2
+\end{equation}
+
+Finally, by substituting Equation \ref{eq:2} into the potential variable in Equation \ref{eq:1}, we obtain our Schr\"odinger equation for the system, where $\omega_c$ is used to denote the {\it classical} angular frequency of the system:
+
+\begin{equation} \label{eq:tise}
+\frac{-\hbar^2}{2m}\nabla^2\psi(x) + \frac12m\omega^2_cx^2\psi(x)=E\psi(x)
+\end{equation} 
+
+\section{Reducing Dimensionality}
+
+To make analytical solutions easier, we substitute out our displacement variable $x$ and energy variable $E$ with dimensionless equivalents. To obtain a dimensionless variable $y$, we use a substitution with $a=\sqrt{\hbar/m\omega_c}$:
+
+\begin{equation} \label{eq:xsub}
+y=\frac xa=\sqrt{\frac{m\omega_c}\hbar}\cdot x
+\end{equation}
+
+To obtain a dimensionless energy $\varepsilon$, we again use the reduced Planck constant:
+
+\begin{equation} \label{eq:Esub}
+\varepsilon=\frac E{\hbar\omega_c/2}
+\end{equation}
+
+By substituting Equations \ref{eq:xsub} and \ref{eq:Esub} into Equation \ref{eq:tise}, we obtain a homogeneous formulation of the Schr\"odinger equation:
+
+\begin{equation} \label{eq:tise_hom}
+\nabla^2\psi(y)+(\varepsilon-y^2)\psi(y)=0
+\end{equation} 
+
+\section{Boundary Conditions and Differential Equation Solution}
+
+Now that we have a homogeneous differential equation, intuition tells us that we need an understanding of the boundary conditions of the model. If we assume energy $E$ to be finite, our substituted $\varepsilon$ must be finite too, so in the boundary condition of y approaching infinities, our equation reduces to zero, as energy becomes negligible with the $y^2$ term:
+
+\begin{equation}
+\text{As }y\rightarrow\pm\infty \text{ then } \psi(y)\rightarrow 0
+\end{equation}
+
+Considering this asymptotic regime, we can begin to solve the differential equation with a trial solution $\psi(y)=y^n\cdot\exp(-y^2/2)$, for some positive $n$.  To solve the differential equation, we then differentiate the trial solution twice:
+
+\begin{equation} \label{eq:psi_prime}
+\psi'(y)= [ny^{n-1}+y^n(-y)]\cdot e^{-y^2/2}
+\end{equation}
+\begin{equation} \label{eq:psi_dprime}
+\psi''(y)=[n(n-1)y^{n-2}+ny^{n-1}(-y)-(n+1)y^n-y^{n+1}(-y)]\cdot e^{-y^2/2}
+\end{equation}
+
+As we are considering the asymptotic regime, we can see that the higher order powers of $y$ dominate over the smaller powers. From this, we can establish an inequality:
+\begin{equation}
+y^{n+2}\gg\sim y^{n-2}, \sim y^n
+\end{equation}
+Having established this, we can simplify Equation \ref{eq:psi_dprime}:
+\begin{equation}
+\psi''(y)\approx y^{n+2}e^{-y^2/2}
+\end{equation}
+
+\section{General Solution}
+
+To obtain a general solution, not just in the asymptotic case, we use the following trial solution, of function $H$, to be determined:
+\begin{equation}
+\psi(y)=He^{-y^2/2}
+\end{equation}
+We again differentiate this trial solution twice:
+\begin{equation}
+\psi'(y)=[H'-Hy]e^{-y^2/2}
+\end{equation}
+\begin{equation}
+\psi''(y)=[H^2-2yH'+H(y^2-1)]e^{-y^2/2}
+\end{equation}
+
+By substituting these into Equation \ref{eq:tise_hom}, and simplifying, we arrive at the next step of the solution:
+\begin{equation}
+[H''=2yH'+(\varepsilon -1)H]e^{-y^2/2}=0
+\end{equation}
+As we know that $\exp(-y^2/2)$ is always positive, and in fact describes a Gaussian distribution, we know that the square-bracketed term must equal zero. This is known as a Hermite equation, and the Hermite functions $H_n(x)$ are described by a power series.
+
+\section{Hermite Polynomials}
+The Hermite polynomials, $H(y)$, are defined by a power series:
+\begin{equation}
+H(y)=\sum_{p=0}^\infty a_py^p
+\end{equation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{document}
