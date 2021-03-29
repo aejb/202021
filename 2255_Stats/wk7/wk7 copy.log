@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=pdflatex 2021.3.16)  28 MAR 2021 20:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=pdflatex 2021.3.16)  29 MAR 2021 15:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -289,22 +289,22 @@ LaTeX Warning: Label `eq:ke_exp' multiply defined.
 )
 \openout1 = `"wk7 copy.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
  (/usr/share/texmf/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count283
@@ -326,7 +326,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count289
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 51.
  (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texmf/tex/latex/refcount/refcount.sty
@@ -336,9 +336,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count290
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
  (/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.out) (/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.out)
 \@outlinefile=\write3
 \openout3 = `"wk7 copy.out"'.
@@ -386,7 +386,7 @@ Package caption Info: End \AtBeginDocument code.
 <ground_state.png, id=85, 373.395pt x 263.384pt>
 File: ground_state.png Graphic file (type png)
 <use ground_state.png>
-Package pdftex.def Info: ground_state.png  used on input line 110.
+Package pdftex.def Info: ground_state.png  used on input line 108.
 (pdftex.def)             Requested size: 261.37471pt x 184.36754pt.
 
 
@@ -399,11 +399,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 214.
+(hyperref)                removing `math shift' on input line 212.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 214.
+(hyperref)                removing `math shift' on input line 212.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -412,7 +412,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <n1.png, id=181, 387.046pt x 266.596pt>
 File: n1.png Graphic file (type png)
 <use n1.png>
-Package pdftex.def Info: n1.png  used on input line 281.
+Package pdftex.def Info: n1.png  used on input line 279.
 (pdftex.def)             Requested size: 270.93034pt x 186.6159pt.
 
 
@@ -421,12 +421,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <n50.png, id=182, 393.47pt x 263.384pt>
 File: n50.png Graphic file (type png)
 <use n50.png>
-Package pdftex.def Info: n50.png  used on input line 291.
+Package pdftex.def Info: n50.png  used on input line 289.
 (pdftex.def)             Requested size: 216.40915pt x 144.86163pt.
 <n150.png, id=183, 399.894pt x 266.596pt>
 File: n150.png Graphic file (type png)
 <use n150.png>
-Package pdftex.def Info: n150.png  used on input line 296.
+Package pdftex.def Info: n150.png  used on input line 294.
 (pdftex.def)             Requested size: 219.94237pt x 146.62823pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -444,19 +444,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--16
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
  [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
 Package rerunfilecheck Info: File `"wk7 copy".out' has not changed.
 (rerunfilecheck)             Checksum: 20B24BC07A847AB59AECF0EF4A43AD1B;846.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
  10547 strings out of 481644
@@ -467,7 +467,7 @@ Here is how much of TeX's memory you used:
  475 hyphenation exceptions out of 8191
  48i,13n,47p,472b,1590s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.pdf" (10 pages, 396141 bytes).
+Output written on "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.pdf" (10 pages, 404070 bytes).
 PDF statistics:
  370 PDF objects out of 1000 (max. 8388607)
  324 compressed objects within 4 object streams
