@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex wk7 copy"] 1617026432 "wk7 copy.aux" "wk7 copy.bbl" "wk7 copy" 1617027693
+["bibtex wk7 copy"] 1617120921 "wk7 copy.aux" "wk7 copy.bbl" "wk7 copy" 1617120950
   "/usr/share/texmf/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   "export.bib" 1616961630 2182 1342c83feb18058ac2f6d648a8806d54 ""
-  "wk7 copy.aux" 1617026433 6631 fccfb14f127d2854dfd7ee0b5720ade7 "pdflatex"
+  "wk7 copy.aux" 1617120921 6765 8cd08930b79f69b3a5e44d229ae94c4f "pdflatex"
   (generated)
   "wk7 copy.bbl"
   "wk7 copy.blg"
-["pdflatex"] 1617026432 "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.tex" "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.pdf" "wk7 copy" 1617027693
+["pdflatex"] 1617120921 "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.tex" "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.pdf" "wk7 copy" 1617120950
   "/etc/texmf/web2c/texmf.cnf" 1585222135 40414 09b1cea32668b6b60f5ddc4d89544168 ""
-  "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.aux" 1617026433 6631 fccfb14f127d2854dfd7ee0b5720ade7 ""
-  "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.tex" 1617027693 19642 0f898ae4693b7f2a6f75ac940dcbf3e2 ""
+  "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.aux" 1617120921 6765 8cd08930b79f69b3a5e44d229ae94c4f ""
+  "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.tex" 1617120949 20033 5bd3ce242fb97b6d3de5a0559a51989a ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map" 1584924908 4811896 62a4b3942352306ffbbdb4a4844ec348 ""
@@ -141,14 +141,14 @@
   "n150.png" 1616956010 40852 0070d8d0e9fb582e7cbe21f7abe0e267 ""
   "n50.png" 1616955993 34858 c41f7d703b7221d5db97edc9db6d1dd4 ""
   "py.py" 1616961632 1638 71790109f84d215a1b454ff2684c0110 ""
-  "wk7 copy.aux" 1617026433 6631 fccfb14f127d2854dfd7ee0b5720ade7 "pdflatex"
-  "wk7 copy.bbl" 1617026432 2040 b588e16026e1d883fbee7948b56dc6df "bibtex wk7 copy"
-  "wk7 copy.out" 1617026433 846 20b24bc07a847ab59aecf0ef4a43ad1b "pdflatex"
-  "wk7 copy.tex" 1617027693 19642 0f898ae4693b7f2a6f75ac940dcbf3e2 ""
+  "wk7 copy.aux" 1617120921 6765 8cd08930b79f69b3a5e44d229ae94c4f "pdflatex"
+  "wk7 copy.bbl" 1617120921 2040 b588e16026e1d883fbee7948b56dc6df "bibtex wk7 copy"
+  "wk7 copy.out" 1617120921 894 ec15917bb5e15dc7f04b5dafa9c62358 "pdflatex"
+  "wk7 copy.tex" 1617120949 20033 5bd3ce242fb97b6d3de5a0559a51989a ""
   (generated)
   "wk7 copy.aux"
-  "wk7 copy.out"
   "wk7 copy.pdf"
   "wk7 copy.log"
-  "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.log"
   "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.pdf"
+  "/home/ash/uni/202021/2255_Stats/wk7/wk7 copy.log"
+  "wk7 copy.out"
