@@ -1,0 +1,24 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Hooke(1665)]{gut:hooke}
+Robert Hooke.
+\newblock \emph{Micrographia: or, Some Physiological Descriptions of Minute
+  Bodies made by Magnifying Glasses}.
+\newblock The Royal Society, London, 1665.
+\newblock URL \url{http://www.gutenberg.org/files/15491/15491-h/15491-h.htm}.
+\newblock Gutenberg eBook 15491.
+
+\bibitem[Newton(1704)]{gut:newt}
+Isaac Newton.
+\newblock \emph{Opticks: or, a Treatise of the Reflections, Refractions,
+  Inflections, and Colours of Light}.
+\newblock William Innys, London, 1704.
+\newblock URL \url{https://www.gutenberg.org/files/33504/33504-h/33504-h.htm}.
+\newblock Gutenberg eBook 33504.
+
+\end{thebibliography}
