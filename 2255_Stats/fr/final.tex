@@ -62,12 +62,12 @@ Abstract
 
 \tableofcontents
 \newpage
-\section{Introduction}
-To fully understand an optical theory of light---and to understand why diffraction and interference experiments are so important to ir---it is helpful to understand the history of how different theories arose. Today, we have a very good understanding of light as an electromagnetic interaction between the magnetic and electric fields, enabled by Photons---the EM force carrier. It is common knowledge, even in popular culture, that light exhibits both wave-like and particle-like behaviour. However, in the 17\textsuperscript{th} and 18\textsuperscript{th}, the picture wasn't so clear.
+\section{Introduction} \label{sec:intro}
+To fully understand an optical theory of light---and to understand why diffraction and interference experiments are so important to ir---it is helpful to understand the history of how different theories arose. Today, we have a very good understanding of light as an electromagnetic interaction between the magnetic and electric fields, enabled by Photons---the EM force carrier. It is common knowledge, even in popular culture, that light exhibits both wave-like and particle-like behaviour. However, in the 17\textsuperscript{th} and 18\textsuperscript{th}, the picture wasn't so clear.\cite[\S1.3]{RefWorks:doc:60689ea38f08cf86c9dc700e}
 
-\subsection{A Brief Historical Overview}
+\subsection{A Brief Historical Overview} \label{sub:over}
 
-While ancient philosiphers---such as Pythagoras, Plato, and Asristotle---began the development of theories of light in the Greek Classical period, progress rapidly accelerated in the seventeenth century with the advent of the refracting telescope. As Galileo and Kepler developed their respective telescope systems in the early 1600s, Snel\footnote{Willebrord Snellius, usually known as Snell} re-discovered Sahl's law of refraction. While these laws did accurately describe light moving through media of varying refractive indices, they rely on the assumption that light travels the path which takes the least time. This assumption can be disproven, such as with a spherical mirror, and as such cannot define a fundemental theory of light
+While ancient philosiphers---such as Pythagoras, Plato, and Asristotle---began the development of theories of light in the Greek Classical period, progress rapidly accelerated in the seventeenth century with the advent of the refracting telescope. As Galileo and Kepler developed their respective telescope systems in the early 1600s, Snel\footnote{Willebrord Snellius, usually known as Snell} re-discovered Sahl's law of refraction. While these laws did accurately describe light moving through media of varying refractive indices, they rely on the assumption that light travels the path which takes the least time. This assumption can be disproven, such as with a spherical mirror, and as such cannot define a fundemental theory of light.
 
 Nonetheless, Snel's law laid the foundations for a rapid development of modern optics. In 1665, at the Royal Society in London, Hooke was one of the first to study the field known today as diffraction and interference, the subject of this report. In his book \emph{Micrographia} \cite{gut:hooke}, the idea of light being vibrations in a medium was first proposed:
 \begin{quote}
@@ -76,16 +76,27 @@ Nonetheless, Snel's law laid the foundations for a rapid development of modern o
   \signed{\emph{---\cite{gut:hooke}}}
 \end{quote}
 Thus began the wave theory of light. 
-\subsection{Newton's Particle Theory}
+\subsection{Newton's Particle Theory} \label{sub:newt}
 
-At the same time, Newton was making his own advances in the field of optics. In his 1704 paper \emph{Opticks} \cite{gut:newt}, he proposed a particle theory of light---initially set forward by Descartes---where light rays are comprised of small discrete particles named ``corpuscules'', hence its name \emph{the corpuscular theory}. His main motivation for choosing a particle theory was the apparent inability of a wave theory to explain rectilinear propagation\footnote{The propensity of light to travel in a straight line in the absence of any interference.}.
+Towards the end of the 1600s, at the turn of the 18\textsuperscript{th} century, Newton was making his own advances in the field of optics. In his 1704 paper \emph{Opticks} \cite{gut:newt}, he proposed a particle theory of light---initially set forward by Descartes---where light rays are comprised of small discrete particles named ``corpuscules'', hence its name \emph{the corpuscular theory}. His main motivation for choosing a particle theory was the apparent inability of a wave theory to explain rectilinear propagation\footnote{The propensity of light to travel in a straight line in the absence of any interference.}.
 
-Despite the corpuscular theory's ability to describe both rectilinear propagation and polarisation (whereas wave theories ignored the latter), it relied on assumptions that modern physicists would resoundly reject - that the speed of light is infinite, but also that it sped up in denser media. 
-\subsection{Huygens' Wave Theory}
+Despite the corpuscular theory's ability to describe both rectilinear propagation and polarisation (whereas wave theories ignored the latter), it relied on assumptions that modern physicists would resoundly reject - that the speed of light is infinite, but also that it sped up in denser media. The corpuscular theory also could not explain observations of chromatic abberation in refracting telescopes, a phenomenon which stifled the use of lens telescopes, Newton preffering to develop reflecting telescopes instead. 
+\subsection{Huygens' Wave Theory} \label{sub:huyg}
+At the same time, over in mainland Europe, Huygens was developing a theory of his own. His theory posited a wave-like description of light, a rapid vibration in a universal plenum. Continuing the developments of Hooke and Fermat before him, he proposed this theory in his 1690 work \emph{Treatise on Light} \cite{gut:huyg}. This theory relied on a medium for light waves to travel through, known as the ``lumeniferous aether''. Unlike Newton's particle theory, the wave theory could explain rectilinear propogation and diffraction effects---as proved by Fresnel---but due to Newton's immense gravitas and respect, his particle theory remained the popular theory amongst academics throughout the 1700s.
 
+Despite many attempts, the lumeniferous aether proved elusive---even Maxwell's famed electromagnetic equations suggested the existance of such an aether. It was not until 1887, when the Michelson–Morley experiment failed to prove its existance through interferometry, that the idea fell from grace, in preference to theories of special relativity that went on to be devised by Einstein in the early 1900s, and eventually the modern wave-particle photon theory in the advent of quantum mechanics.
 
+\subsection{Developing an Optical Theory of Interference and Diffraction}
 
-\subsection{Developing an Optical Theory}
+In spite of this, the wave-theory approximations of light provide us with reasonably accurate results in some scenarios. As the Maxwell equations are fully compatible with light's motion throuhg a medium, the principles proposed by Hooke (as in \S\ref{sub:over}) and used by Huygens in his wave theory serve as accurate approximations of optical interference and diffraction. By using Hooke's spherical propogation of light waves, Huygens and Fresnel developed an analyitical model of wave propogation:
+
+\begin{quote}
+  Every point on a propagating wavefront serves as the source of spherical secondary wavelets, such that the wavefront at some later time is the envelope of these wavelets. If the propagating wave has a frequency $\nu$, and is transmitted through the medium at a speed $v_t$, then the secondary wavelets have that same frequency and speed.
+  \signed{---\emph{\cite[\S4.4.2]{RefWorks:doc:60689ea38f08cf86c9dc700e}}}
+\end{quote}
+This principle, first proposed by Huygens then refined by Fresnel as the Huygens-Fresnel principle (later shown by Kirchoff to be a direct consequence of the differential wave equation), was submitted to the French Academy of sciences in 1818 by Fresnel for review. Poisson, a member of the Academy, was particularly critical of wave theories of light, supporting Newton's corpuscular theory. He found a supposed glaring error in the Huygens-Fresnel principle: under certain conditions, the theory predicts the emergence of a bright spot at the center of the shadow of a small disc, and vice versa; a dark spot at the center of a circular aperture. Poisson stated that, as this phenomenon was not commonly observed, the principle could not be correct. However, another member of the academy, Arago, proved these predictions experimentally, leading the phenomenon to be dubbed the ``Poisson spot'', and heralding one of the first major victories of the wave theory of light over Newton's corpuscular theory.
+
+Such investigations into the Huygens-Fresnel principle are redily replicable with modern equipment, especially with lasers. This report will, through experimental analysis of interference and diffraction phenomena, and relation to the wave equation, investigate the ability for the Huygens-Fresnel principle to approximate the observed behaviour of light, and the modern accepted photonic theory.
 
 \section{Experimental Setup}
 
@@ -125,6 +136,7 @@ Table & Table & Table \\
 \begin{appendix}
 \section{Appendix}
 \subsection{Bibliography}
+\emph{All works sourced from the Gutenberg Project are in the public domain.}
 \bibliographystyle{plainnat}
 \bibliography{export}
 \subsection{Python Code}\label{sec:python}
