@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=pdflatex 2021.3.16)  9 APR 2021 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=pdflatex 2021.3.16)  11 APR 2021 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -283,61 +283,67 @@ Package caption Info: listings package is loaded.
 Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \CurrentLineWidth=\dimen161
 \TabPrevPos=\dimen162
+) (/usr/share/texmf/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip53
+\multirow@cntb=\count280
+\multirow@dima=\skip54
+\bigstrutjot=\dimen163
 ) (/usr/share/texmf/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texmf/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count280
-\Gm@cntv=\count281
-\c@Gm@tempcnt=\count282
-\Gm@bindingoffset=\dimen163
-\Gm@wd@mp=\dimen164
-\Gm@odd@mp=\dimen165
-\Gm@even@mp=\dimen166
-\Gm@layoutwidth=\dimen167
-\Gm@layoutheight=\dimen168
-\Gm@layouthoffset=\dimen169
-\Gm@layoutvoffset=\dimen170
+\Gm@cnth=\count281
+\Gm@cntv=\count282
+\c@Gm@tempcnt=\count283
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
 \Gm@dimlist=\toks24
 ) (/usr/share/texmf/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (/home/ash/uni/202021/2255_Stats/fr/final.aux)
 \openout1 = `final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
  (/usr/share/texmf/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen171
+\scratchcounter=\count284
+\scratchdimen=\dimen172
 \scratchbox=\box50
-\nofMPsegments=\count284
-\nofMParguments=\count285
+\nofMPsegments=\count285
+\nofMParguments=\count286
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen172
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen173
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
 \everyMPtoPDFconversion=\toks26
 )
-\c@lstlisting=\count289
+\c@lstlisting=\count290
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 57.
+Package hyperref Info: Link coloring OFF on input line 58.
  (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/share/texmf/tex/latex/refcount/refcount.sty
@@ -345,11 +351,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texmf/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count290
+\c@section@level=\count291
 )
-LaTeX Info: Redefining \ref on input line 57.
-LaTeX Info: Redefining \pageref on input line 57.
-LaTeX Info: Redefining \nameref on input line 57.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
  (/home/ash/uni/202021/2255_Stats/fr/final.out) (/home/ash/uni/202021/2255_Stats/fr/final.out)
 \@outlinefile=\write3
 \openout3 = `final.out'.
@@ -391,76 +397,116 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/home/ash/uni/202021/2255_Stats/fr/final.toc)
+[1
+
+{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/ash/uni/202021/2255_Stats/fr/final.toc)
 \tf@toc=\write4
 \openout4 = `final.toc'.
 
- [1
+ [2
 
-{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<fraunhofer.png, id=131, 772.8875pt x 907.39pt>
+] [3
+
+]
+<fraunhofer.png, id=145, 772.8875pt x 907.39pt>
 File: fraunhofer.png Graphic file (type png)
 <use fraunhofer.png>
-Package pdftex.def Info: fraunhofer.png  used on input line 110.
+Package pdftex.def Info: fraunhofer.png  used on input line 111.
 (pdftex.def)             Requested size: 193.22139pt x 226.84694pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4 </home/ash/uni/202021/2255_Stats/fr/fraunhofer.png (PNG copy)>]
-<ss_demo.png, id=163, 426.393pt x 271.414pt>
+[4] [5 </home/ash/uni/202021/2255_Stats/fr/fraunhofer.png (PNG copy)>]
+<ss_demo.png, id=177, 426.393pt x 271.414pt>
 File: ss_demo.png Graphic file (type png)
 <use ss_demo.png>
-Package pdftex.def Info: ss_demo.png  used on input line 157.
+Package pdftex.def Info: ss_demo.png  used on input line 158.
 (pdftex.def)             Requested size: 298.47305pt x 189.9885pt.
-<double.png, id=165, 1082.0425pt x 993.7125pt>
+<double.png, id=179, 1082.0425pt x 993.7125pt>
 File: double.png Graphic file (type png)
 <use double.png>
-Package pdftex.def Info: double.png  used on input line 165.
+Package pdftex.def Info: double.png  used on input line 166.
 (pdftex.def)             Requested size: 183.9448pt x 168.92888pt.
- [5 </home/ash/uni/202021/2255_Stats/fr/ss_demo.png> </home/ash/uni/202021/2255_Stats/fr/double.png>]
-<ds_demo.png, id=183, 424.787pt x 271.414pt>
+ [6 </home/ash/uni/202021/2255_Stats/fr/ss_demo.png> </home/ash/uni/202021/2255_Stats/fr/double.png>]
+<ds_demo.png, id=197, 424.787pt x 271.414pt>
 File: ds_demo.png Graphic file (type png)
 <use ds_demo.png>
-Package pdftex.def Info: ds_demo.png  used on input line 183.
+Package pdftex.def Info: ds_demo.png  used on input line 184.
 (pdftex.def)             Requested size: 297.34888pt x 189.9885pt.
- [6 </home/ash/uni/202021/2255_Stats/fr/ds_demo.png>]
-<setup.png, id=200, 913.4125pt x 204.765pt>
+ [7 </home/ash/uni/202021/2255_Stats/fr/ds_demo.png>]
+<setup.png, id=215, 913.4125pt x 204.765pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
-Package pdftex.def Info: setup.png  used on input line 199.
-(pdftex.def)             Requested size: 274.02586pt x 61.42996pt.
-<q2sa3.png, id=202, 595.5048pt x 137.7948pt>
+Package pdftex.def Info: setup.png  used on input line 200.
+(pdftex.def)             Requested size: 365.35854pt x 81.90454pt.
+<q2sa3.png, id=218, 595.5048pt x 137.7948pt>
 File: q2sa3.png Graphic file (type png)
 <use q2sa3.png>
-Package pdftex.def Info: q2sa3.png  used on input line 212.
-(pdftex.def)             Requested size: 416.85052pt x 96.45569pt.
- [7
+Package pdftex.def Info: q2sa3.png  used on input line 213.
+(pdftex.def)             Requested size: 357.30565pt x 82.6775pt.
+ [8
 
- </home/ash/uni/202021/2255_Stats/fr/setup.png (PNG copy)> </home/ash/uni/202021/2255_Stats/fr/q2sa3.png>] [8] (/home/ash/uni/202021/2255_Stats/fr/final.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
+ </home/ash/uni/202021/2255_Stats/fr/setup.png (PNG copy)> </home/ash/uni/202021/2255_Stats/fr/q2sa3.png>]
+<q4ds1.png, id=232, 390.9807pt x 99.2508pt>
+File: q4ds1.png Graphic file (type png)
+<use q4ds1.png>
+Package pdftex.def Info: q4ds1.png  used on input line 224.
+(pdftex.def)             Requested size: 312.78497pt x 79.40073pt.
+ [9
+
+ </home/ash/uni/202021/2255_Stats/fr/q4ds1.png>]
+<ss_ex.png, id=247, 399.091pt x 263.384pt>
+File: ss_ex.png Graphic file (type png)
+<use ss_ex.png>
+Package pdftex.def Info: ss_ex.png  used on input line 307.
+(pdftex.def)             Requested size: 319.27322pt x 210.70747pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 313.
+
+[10]
+<ds_ex.png, id=273, 399.091pt x 266.596pt>
+File: ds_ex.png Graphic file (type png)
+<use ds_ex.png>
+Package pdftex.def Info: ds_ex.png  used on input line 345.
+(pdftex.def)             Requested size: 319.27322pt x 213.27707pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 351.
+
+[11 </home/ash/uni/202021/2255_Stats/fr/ss_ex.png>] [12 </home/ash/uni/202021/2255_Stats/fr/ds_ex.png>] (/home/ash/uni/202021/2255_Stats/fr/final.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 385.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 385.
  (/home/ash/uni/202021/2255_Stats/fr/final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 385.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 385.
 Package rerunfilecheck Info: File `final.out' has not changed.
-(rerunfilecheck)             Checksum: FFE67F5C6FA29692CCFFC6536BD36C57;1192.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
+(rerunfilecheck)             Checksum: AF0EAF09169F3B185539A6B44E3DDCDC;1328.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 385.
  ) 
 Here is how much of TeX's memory you used:
- 10477 strings out of 481644
- 157695 string characters out of 5929691
- 626035 words of memory out of 5000000
- 25966 multiletter control sequences out of 15000+600000
- 544441 words of font info for 65 fonts, out of 8000000 for 9000
+ 10610 strings out of 481644
+ 159446 string characters out of 5929691
+ 665780 words of memory out of 5000000
+ 26067 multiletter control sequences out of 15000+600000
+ 544778 words of font info for 66 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
- 48i,8n,46p,1053b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /home/ash/uni/202021/2255_Stats/fr/final.pdf (9 pages, 3380788 bytes).
+ 48i,15n,46p,1053b,1201s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /home/ash/uni/202021/2255_Stats/fr/final.pdf (13 pages, 4905874 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 263 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 392 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

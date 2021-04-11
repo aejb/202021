@@ -1,18 +1,20 @@
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}A Brief Historical Overview}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Newton's Particle Theory}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Huygens' Wave Theory}{2}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Developing an Optical Theory of Interference and Diffraction}{3}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Experimental Method}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Single Slit Intensity Derivation}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Double Slit Intensity Derivation}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Measurements and Data Sets to Obtain}{6}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Experimental Setup}{7}{section.3}%
-\contentsline {section}{\numberline {4}Results}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Single Slit Diffraction}{7}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Double Slit Diffraction}{7}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Data Analysis}{7}{section.5}%
-\contentsline {section}{\numberline {6}Summary of Findings}{7}{section.6}%
-\contentsline {section}{\numberline {A}Appendix}{9}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Bibliography}{9}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Python Code}{9}{subsection.A.2}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}A Brief Historical Overview}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Newton's Particle Theory}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Huygens' Wave Theory}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Developing an Optical Theory of Interference and Diffraction}{4}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Experimental Method}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Single Slit Intensity Derivation}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Double Slit Intensity Derivation}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Measurements and Data Sets to Obtain}{7}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Experimental Setup}{8}{section.3}%
+\contentsline {section}{\numberline {4}Results}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Single Slit Diffraction}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Double Slit Diffraction}{8}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Data Analysis}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Single Slit}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Double Slit}{10}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Summary of Results and Conclusion}{12}{section.6}%
+\contentsline {section}{\numberline {A}Appendix}{13}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Bibliography}{13}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Python Code}{13}{subsection.A.2}%

@@ -13,6 +13,7 @@
 \usepackage{physics}
 \usepackage{subcaption}
 \usepackage{tabto}
+\usepackage{multirow}
 \def\signed#1{{\unskip\nobreak\hfil\penalty50
     \hskip2em\hbox{}\nobreak\hfil\sl#1
     \parfillskip=0pt \finalhyphendemerits=0 \par}}
@@ -60,9 +61,9 @@
 \begin{abstract}
 Abstract
 \end{abstract}
-
+\clearpage
 \tableofcontents
-\newpage
+\clearpage
 \section{Introduction} \label{sec:intro}
 To fully understand an optical theory of light---and to understand why diffraction and interference experiments are so important to ir---it is helpful to understand the history of how different theories arose. Today, we have a very good understanding of light as an electromagnetic interaction between the magnetic and electric fields, enabled by Photons---the EM force carrier. It is common knowledge, even in popular culture, that light exhibits both wave-like and particle-like behaviour. However, in the 17\textsuperscript{th} and 18\textsuperscript{th}, the picture wasn't so clear.\cite[\S1.3]{RefWorks:doc:60689ea38f08cf86c9dc700e}
 
@@ -188,7 +189,7 @@ I(\theta)=I(0)\left(\frac{\sin^2\beta}{\beta^2}\right)\cos^2\alpha
 
 \subsection{Measurements and Data Sets to Obtain}
 
-To investigate the ability of the Huygens-Fresnel principle to approximate the observed behaviour of light, the two expressions Equations \ref{eq:ss} and \ref{eq:ds} can be analysed experimentally. By measuring the maxima and minima positions of the experimental intensity patterns accross a range of slit widths and seperations, the results can be fitted to the predicted curves in the aforementioned equations, and the accuracy determined. As we cannot accurately measure intensity, Equations \ref{eq:ss} and \ref{eq:ds} can be analysed to produce equations for the locations of maxima and minima of the patterns. These locations of maxima and minima are far easier to measure, and still provide a way of determining the accuracy of the Huygens-Fresnel principle.
+To investigate the ability of the Huygens-Fresnel principle to approximate the observed behaviour of light, the two expressions Equations \ref{eq:ss} and \ref{eq:ds} can be analysed experimentally. By measuring the maxima and minima positions of the experimental intensity patterns accross a range of slit widths and seperations, the results can be fitted to the predicted curves in the aforementioned equations, and unknown variables determined. As we cannot accurately measure intensity, Equations \ref{eq:ss} and \ref{eq:ds} can be analysed to produce equations for the locations of maxima and minima of the patterns. These locations of maxima and minima are far easier to measure, and still provide a way of determining the either the unknown aperture dimensions, or unknown slit-screen distance.
 \clearpage
 
 \section{Experimental Setup}
@@ -196,7 +197,7 @@ To investigate the ability of the Huygens-Fresnel principle to approximate the o
 To analyse the diffraction patterns from a double and single slit, using the expressions derived in Sections \ref{sec:single} and \ref{sec:double}, a very simple experimental setup is used. First, a coherent light source is required. A laser provides a beam of coherent light, at very high directionality, so an incident slit is not require to form a narrow beam line. Secondly, an observation plane is required, to visually analyse the diffraction pattern. This is called a ``Gambrell'' screen, as it has a ruler in millimeters printed to it. Between the two sits the aperture used for the experiment, either the double or single slits, or other apertures such as a pinhole or diffraction grating, which will be discussed later. Figure \ref{fig:setup} illustrates this setup.
 
 \begin{figure}[h]
-  \centerline{\includegraphics[scale=0.3]{setup.png}}
+  \centerline{\includegraphics[scale=0.4]{setup.png}}
   \captionsetup{justification=centering}
   \caption{Overhead illustration of the experimental setup used.}
   \label{fig:setup}
@@ -206,43 +207,169 @@ To analyse the diffraction patterns from a double and single slit, using the exp
 
 \subsection{Single Slit Diffraction}
 
-To obtain minima and maxima positions for single-slit diffraction, 8 different slit widths were chosen, and their pattern photographed. Each photograph was then digitally analysed, and the maxima and minima positions annotated and recorded. One example image is displayed in Figure~\ref{fig:ss_measurement} and the rest of the single-slit data is presented in Table 
+To obtain minima and maxima positions for single-slit diffraction, 8 different slit widths were chosen, and their pattern photographed. Each photograph was then digitally analysed, and the maxima and minima positions annotated and recorded. One example image is displayed in Figure~\ref{fig:ss_measurement} and the rest of the single-slit data is presented in Table \ref{tab:ss_tab}. For the single-slit apertures, the slit-screen distance was measured at $166\pm1$ cm, and the slit width was the unknown variable for each setup. The name for each dataset is derived from the name of the image file given. The maxima and minima positions are recorded with their ``order'', their numerical position away from the center maximum.
 
-\begin{figure}[h]
-  \centerline{\includegraphics[scale=0.7]{q2sa3.png}}
+\begin{figure}[ht!]
+  \centerline{\includegraphics[scale=0.6]{q2sa3.png}}
   \captionsetup{justification=centering}
-  \caption{An image of one of the single-slit diffraction patterns measured, edited to include the intensity maxima and minima locations.}
+  \caption{An image of one of the single-slit diffraction patterns measured, edited to include the intensity maxima (indicated at the bottom) and minima locations (indicated at the top).}
   \label{fig:ss_measurement}
 \end{figure}
 
 \subsection{Double Slit Diffraction}
 
-Data collection for the double-slit diffraction pattern was identical to that of single-slit patterns, but only 5 data sets were obtained. Due to missing maxima, as noted in Figure~\ref{fig:doubledemo}, it is difficult to accurately measure maxima and minima positions outside the first single-slit envelope.
+Data collection for the double-slit diffraction pattern was identical to that of single-slit patterns, but only 5 data sets were obtained. Due to missing maxima, as noted in Figure~\ref{fig:doubledemo}, it is difficult to accurately measure maxima and minima positions outside the first single-slit envelope. An example image is displayed in Figure~\ref{fig:ds_measurement}, showing the minima above and the maxima below, as well as the area of the first single-slit envelope. The results are tabulated in Table \ref{tab:ds_tab}. For the double-slit apertures, the slit width was measured at $60\mu m$, and the slit seperation at $250\mu m$. The slit-screen distance was the unknown variable for each setup.
+\clearpage
+\begin{figure}[h]
+  \centerline{\includegraphics[scale=0.8]{q4ds1.png}}
+  \captionsetup{justification=centering}
+  \caption{An image of one of the double-slit diffraction patterns measured, edited to include the intensity maxima (indicated at the bottom) and minima locations (indicated at the top), and the first single-slit intensity envelope.}
+  \label{fig:ds_measurement}
+\end{figure}
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{|c|c|ccccccccc|}
+  \hline
+  \multirow{2}{*}{Image} & \multirow{2}{*}{Minima/Maxima} & \multicolumn{9}{c|}{Min/Max Position (cm)}               \\
+                      &          & -4    & -3    & -2    & -1    & 0    & 1    & 2    & 3    & 4    \\\hline\hline
+  \multirow{2}{*}{sa3} & Maxima  & -7.1  & -5.4  & -3.8  & -2.2  & 0.2  & 2.5  & 4.2  & 5.9  & 7.6  \\
+                       & Minima  & -6.3  & -4.7  & -3.1  & -1.5  &      & 1.7  & 3.35 & 5    & 6.7  \\\hline
+  \multirow{2}{*}{sa4} & Maxima  & -6    & -4.7  & -3.3  & -1.9  & 0.2  & 2.2  & 3.6  & 5.1  & 6.6  \\
+                       & Minima  & -5.5  & -4.15 & -2.7  & -1.35 &      & 1.5  & 2.9  & 4.4  & 5.8  \\\hline
+  \multirow{2}{*}{sa5} & Maxima  & -5.2  & -4    & -2.8  & -1.6  & 0.1  & 1.9  & 3.1  & 4.3  & 5.6  \\
+                       & Minima  & -4.7  & -3.5  & -2.3  & -1.1  &      & 1.3  & 2.5  & 3.7  & 4.9  \\\hline
+  \multirow{2}{*}{sb1} & Maxima  & -4.1  & -3.2  & -2.25 & -1.3  & 0.1  & 1.5  & 2.45 & 3.5  & 4.4  \\
+                       & Minima  & -3.7  & -2.8  & -2.85 & -0.9  &      & 1.05 & 2    & 2.95 & 3.95 \\\hline
+  \multirow{2}{*}{sb2} & Maxima  & -3.75 & -2.9  & -2    & -1.15 & 0.1  & 1.4  & 2.25 & 3.1  & 4    \\
+                       & Minima  & -3.35 & -2.5  & -1.65 & -0.8  &      & 0.95 & 1.8  & 2.7  & 3.5  \\\hline
+  \multirow{2}{*}{sb3} & Maxima  & -3.3  & -2.55 & -1.8  & -1    & 0.1  & 1.25 & 2    & 2.75 & 3.6  \\
+                       & Minima  & -3    & -2.2  & -1.4  & -0.7  &      & 0.9  & 1.3  & 2.4  & 3.2  \\\hline
+  \multirow{2}{*}{sb4} & Maxima  & -2.9  & -2.25 & -1.55 & -0.9  & 0.1  & 1.1  & 1.75 & 2.5  & 3.15 \\
+                       & Minima  & -2.6  & -1.9  & -1.3  & -0.6  &      & 0.8  & 1.4  & 2.15 & 2.8  \\\hline
+  \multirow{2}{*}{sb5} & Maxima  & -2.65 & -2    & -1.4  & -0.8  & 0.15 & 1    & 1.65 & 2.25 & 2.85 \\
+                       & Minima  & -2.4  & -1.75 & -1.15 & -0.55 &      & 0.75 & 1.3  & 1.9  & 2.55 \\\hline
+  \end{tabular}
+  \captionsetup{justification=centering}
+  \caption{\label{tab:ss_tab}Tabulated results of single-slit diffraction pattern experiments, for 8 different slit widths.\\ Results are in cenitmeters, with the positional order denoted. All measurements were taken at a slit-screen distance of $116\pm1$ cm, and an error of $\pm 0.05$ cm.}
+\end{table}
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{|c|c|ccccccc|}\hline
+    \multirow{2}{*}{Image} & \multirow{2}{*}{Minima/Maxima} & \multicolumn{7}{c|}{Min/Max Position (cm)}               \\
+    &          & -3    & -2    & -1    & 0    & 1    & 2    & 3      \\\hline\hline
+  \multirow{2}{*}{ds1} & Maxima  & -0.9  & -0.6  & -0.25 & 0.05 & 0.4  & 0.75 & 1.05 \\
+                       & Minima  & -0.8  & -0.45 & -0.1  &      & 0.25 & 0.6  & 0.9  \\\hline
+  \multirow{2}{*}{ds2} & Maxima  & -1.15 & -0.75 & -0.35 & 0    & 0.45 & 0.85 & 1.2  \\
+                       & Minima  & -1    & -0.55 & -0.15 &      & 0.25 & 0.65 & 1.05 \\\hline
+  \multirow{2}{*}{ds3} & Maxima  & -1.05 & -0.85 & -0.35 & 0.05 & 0.45 & 0.8  & 1.15 \\
+                       & Minima  & -0.95 & -0.55 & -0.15 &      & 0.2  & 0.6  & 1    \\\hline
+  \multirow{2}{*}{ds4} & Maxima  & -1.35 & -0.9  & -0.4  & 0.05 & 0.5  & 1    & 1.4  \\
+                       & Minima  & -1.15 & -0.65 & -0.2  &      & 0.25 & 0.8  & 1.25 \\\hline
+  \multirow{2}{*}{ds5} & Maxima  & -1.15 & -0.75 & -0.35 & 0.05 & 0.45 & 0.9  & 1.25 \\
+                       & Minima  & -1    & -0.55 & -0.15 &      & 0.25 & 0.7  & 1.1 \\\hline
+  \end{tabular}
+  \captionsetup{justification=centering}
+  \caption{\label{tab:ds_tab}Tabulated results of double-slit diffraction pattern experiments, for 5 different slit widths.\\ Results are in cenitmeters, with the positional order denoted. All measurements were taken with slit width $b\approx 60\mu m$ and slit seperation $a=250\mu m$.}
+\end{table}
+
 
 \section{Data Analysis}
 
-\section{Summary of Findings}
+To begin the data analysis, first the maxima position at order 0 was used to cancel the offset of the pattern, and subtracted from each value in that data set. With this adjusted data, it was imported into Python for data manipulation, using Python's \lstinline$NumPy$ library. All code used for the data analysis is found in Appendix \ref{sec:python}, but excerpts are used below. To attempt to verify the Huygens-Fresnel principle, the aim of the data analysis described below is to obtain estimate values for each of the missing variables in each data set.
 
-Text \lstinline$inline$
-\begin{lstlisting}
-# Codeblock
-\end{lstlisting}
-\begin{equation}
-\text{equation}
+\subsection{Single Slit} \label{sec:ssan}
+
+For the single-slit data sets, an estimate for the slit width needs to be obtained. To do this, Equation \ref{eq:ss} can be used to derive expressions for the positions of intensity minima and maxima in the $\text{sinc}^2$ pattern. Using the small-angle approximations, the $x$-coordinate of the intensity pattern can be related to its angle $\theta$ with 
+\begin{equation} \label{eq:xcoord}
+x=L\tan\theta
 \end{equation}
+where $L$ is the slit-screen distance. Again, we can use Equation \ref{eq:ss} (and, more visually, Figure~\ref{fig:singledemo}) to express the locations of intensity minima as $b\sin\theta=n\lambda$, where $n$ is the minima order as used in Table \ref{tab:ss_tab}, and $b$ is the slit width. By again using the small angle approximation $\sin\theta\approx\tan\theta\approx\theta$, the expression 
+\begin{equation} \label{fig:func}
+x=L\cdot\frac\lambda{b}n
+\end{equation} describes the positions of intensity minima. By once again reffering to Figure~\ref{fig:singledemo}, this same expression can be used to describe the positions of intensity {\it maxima} if each $n$ order is increased absolutely by $\frac12$ (i.e. $n=-1$ becomes $n=-1.5$, $n=2$ becomes $n=2.5$).\\
+To fit the data to these expressions, the \lstinline$optimize.curve_fit$ method provided by Python's SciPy library, which uses a method of minimising the sum of the squared residuals to fit a given function to a set of data. Defining \ref{fig:func} as a Python function with \lstinline$_l$ and \lstinline$_w$ as constants for the slit-screen distance $1.66m$ and the laser wavelength $6.238\times10^{-7} m$ as
+\begin{lstlisting}[belowskip=-1.5 \baselineskip]
+def func(n, *vars):
+  a, = vars
+  return _l*((_w/a)*n)
+\end{lstlisting}
+can then be used with NumPy arrays of the $n$ orders, $m$ positions of maxima or minima, and $s$ the uncertainty of $0.05cm$ in each measurement:
+\begin{lstlisting}[belowskip=-1.5 \baselineskip]
+p0 = np.array([1e-4])
+parameters, covariance = curve_fit(func, n, m, p0, s, absolute_sigma=True)
+chi_sq_min = sum(((m-func(n, parameters))/s)**2)
+\end{lstlisting} 
+To determine errors for the calculated values, the standard error propogation formula cannot be used. However, \lstinline$optimize.curve_fit$ also provides the covariance matrix of each fit. The square root of these values is the standard deviation of each result, which can be used as the error in each measurement. 
+This snippet also generates a $\chi^2_\text{min}$ value for each data set, which provides a way of quantifying the ``goodness-of-fit'' for each set. The closer that the $\chi^2_\text{min}$ is to the number of degrees of freedom, the better the data fits the calculated fit. Carrying out this fitting to each of the 8 data sets, estimates of the slit width are obtained from the maxima and minima set. Averaging these gives a good estimate. The data and fits for one of the data sets, $\text{sb4}$, are shown in Figure~\ref{fig:ss_ex}, and the full results are tabulated in Table \ref{tab:ss_results}.
+\begin{figure}[h]
+  \centerline{\includegraphics[scale=0.8]{ss_ex.png}}
+  \captionsetup{justification=centering}
+  \caption{An example of the curve-fitting of a maxima and minima dataset to Equation \ref{fig:func}, using the sb4 dataset.}
+  \label{fig:ss_ex}
+\end{figure}
+
+\begin{table}[]
+  \centering
+  \begin{tabular}{|c|cc|cc|c|c|c|}\hline
+  \multirow{2}{*}{Data set} & \multicolumn{2}{c|}{Maxima} & \multicolumn{2}{c|}{Minima} & \multirow{2}{*}{$\bar b$ (cm)} & \multirow{2}{*}{$\Delta\bar{b}$ (cm)} & \multirow{2}{*}{$\frac{\chi^2_\text{min}}{\text{NDoF}}$} \\
+                       & $b$ (cm) & $\Delta b$ (cm) & $b$ (cm) & $\Delta b$ (cm)   &                     &                      &                      \\\hline\hline
+  sa3                    & 0.0064     & 4.76e-10      & 0.00645    & 6.7e-10       & 0.006425            & 5.73e-10             & 0.41035              \\
+  sa4                    & 0.00742    & 8.63e-10      & 0.00739    & 1.157e-09     & 0.007405            & 1.01e-09             & 0.50156              \\
+  sa5                    & 0.00874    & 1.656e-09     & 0.00873    & 2.253e-09     & 0.008735            & 1.9545e-09           & 0.37458              \\
+  sb1                    & 0.011      & 4.161e-09     & 0.01058    & 4.877e-09     & 0.01079             & 4.519e-09            & 5.77901              \\
+  sb2                    & 0.01215    & 6.2e-09       & 0.01222    & 8.66e-09      & 0.012185            & 7.43e-09             & 0.59899              \\
+  sb3                    & 0.01369    & 9.987e-09     & 0.01387    & 1.4374e-08    & 0.01378             & 1.21805e-08          & 1.10601              \\
+  sb4                    & 0.01554    & 1.657e-08     & 0.01563    & 2.3193e-08    & 0.015585            & 1.98815e-08          & 0.59551              \\
+  sb5                    & 0.01708    & 2.4176e-08    & 0.01719    & 3.3904e-08    & 0.017135            & 2.904e-08            & 0.59699      \\\hline       
+  \end{tabular}
+  \captionsetup{justification=centering}
+  \caption{Tabulated results of the data analysis for the single-slit diffraction experiment, showing the estimated values for the slit widths for the Maxima and Minima calculations, their average, uncertanties, and $\chi^2_\text{min}$ divided by the number of degrees of freedom in the dataset.}
+  \label{tab:ss_results}
+  \end{table}
+
+\subsection{Double Slit} \label{sec:dsan}
+The data analysis method for double-slit experiments is similar to that of the single-slit analysis. With these data sets, the unknown variable was instead the slit-screen distance, with the slit width $b=60\mu m$ and slit seperation $a=250\mu m$ given. Derivation of expressions for minima positions follow much the same on from Equation \ref{eq:xcoord}. As only minima inside the first single-slit envelope are analysed, only the slit seperation term is required, resulting in a minima condition of 
+\begin{equation} \label{eq:func2}
+x = l\cdot\frac{\lambda(n+\frac12)}d
+\end{equation}\newpage
+As with Section \ref{sec:ssan}, this is then written in Python as
+\begin{lstlisting}[belowskip=-1.5 \baselineskip]
+def func(n, *vars):
+    l, = vars
+    return l*( (_w/_a)*(n+1/2))
+\end{lstlisting} and the same \lstinline$optimize.curve_fit$ method is applied as before. An example of a double-slit fit is shown in Figure~\ref{fig:ds_ex}, and the full results are tabulated in Table~\ref{tab:ds_results}
+
+\begin{figure}[h]
+  \centerline{\includegraphics[scale=0.8]{ds_ex.png}}
+  \captionsetup{justification=centering}
+  \caption{An example of the curve-fitting of a maxima and minima dataset to Equation \ref{eq:func2}, using the ds4 dataset.}
+  \label{fig:ds_ex}
+\end{figure}
+
+\begin{table}[]
+  \centering
+  \begin{tabular}{|c|cc|cc|ccc|}
+  \hline
+  \multirow{2}{*}{Data set} & \multicolumn{2}{c|}{Maxima} & \multicolumn{2}{c|}{Minima} & \multirow{2}{*}{$\bar l$} & \multirow{2}{*}{$\Delta\bar l$} & \multirow{2}{*}{$\frac{\chi^2_\text{min}}{\text{NDoF}}$} \\
+                       & $l$ (cm)  & $\Delta l$ (cm)  & $l$ (cm)     & $\Delta l$ (cm) &                     &                      &                      \\\hline\hline
+  ds1                    & 104.852      & 9.338       & 103.249      & 13.612      & 104.0505            & 11.475               & 1.48976              \\
+  ds2                    & 126.289      & 9.338       & 123.288      & 13.612      & 124.7885            & 11.475               & 1.78767              \\
+  ds3                    & 120.697      & 9.338       & 114.457      & 13.612      & 117.577             & 11.475               & 3.47055              \\
+  ds4                    & 146.327      & 9.338       & 153.515      & 13.612      & 149.921             & 11.475               & 4.1336               \\
+  ds5                    & 128.153      & 9.338       & 125.325      & 13.612      & 126.739             & 11.475               & 2.78745             \\\hline
+  \end{tabular}
+  \captionsetup{justification=centering}
+  \caption{Tabulated results of the data analysis for the double-slit diffraction experiment, showing the estimated values for the slit-screen distance for the Maxima and Minima calculations, their average, uncertanties, and $\chi^2_\text{min}$ divided by the number of degrees of freedom in the dataset.}
+  \label{tab:ds_results}
+  \end{table}
+
+\newpage
+\section{Summary of Results and Conclusion}
 
 
 
-\begin{table}[h!]
-\centering
-\begin{tabular}{lll}
-\hline
-Table & Table & Table\\ \hline
-Table & Table & Table \\
-Table & Table & Table \\
-\end{tabular}
-\caption{\label{tab:table}Caption.}
-\end{table}
 \newpage
 \begin{appendix}
 \section{Appendix}
