@@ -14,6 +14,7 @@
 \usepackage{subcaption}
 \usepackage{tabto}
 \usepackage{multirow}
+\usepackage{setspace}
 \def\signed#1{{\unskip\nobreak\hfil\penalty50
     \hskip2em\hbox{}\nobreak\hfil\sl#1
     \parfillskip=0pt \finalhyphendemerits=0 \par}}
@@ -55,13 +56,20 @@
   morekeywords={*,...}               % if you want to add more keywords to the set
 }
 
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
 \begin{document}
 \maketitle
-
+\bigbreak
+\bigbreak
+{\setstretch{1.3}
+\begin{changemargin}{1.5cm}{1.5cm} 
 \begin{abstract}
-Abstract
+{In modern times, the theory of light is well understood, through the wave-particle theory developed by Einstien, and Maxwell's equations of electromagnetic interaction. However, in the 17\textsuperscript{th} and 18\textsuperscript{th}, this was far from the case. This report will provide an overview of the rapid developments in the theory of light during the late 1600s and early 1700s, and explain the two competing theories of light at the time. By using one of these theories, developed by Huygens, its underlying principle can be used to closely approximate the observed behaviour of light. Using optical diffraction of single and double slits, using a laser, the accuracy of this approximation will be proven to a high level of confidence.}
 \end{abstract}
-\clearpage
+\end{changemargin}
+}
 \tableofcontents
 \clearpage
 \section{Introduction} \label{sec:intro}
@@ -88,7 +96,7 @@ At the same time, over in mainland Europe, Huygens was developing a theory of hi
 
 Despite many attempts, the lumeniferous aether proved elusive---even Maxwell's famed electromagnetic equations suggested the existance of such an aether. It was not until 1887, when the Michelson–Morley experiment failed to prove its existance through interferometry, that the idea fell from grace, in preference to theories of special relativity that went on to be devised by Einstein in the early 1900s, and eventually the modern wave-particle photon theory in the advent of quantum mechanics.
 
-\subsection{Developing an Optical Theory of Interference and Diffraction}
+\subsection{Developing an Optical Theory of Interference and Diffraction} \label{sec:dev_theory}
 
 In spite of this, the wave-theory approximations of light provide us with reasonably accurate results in some scenarios. As the Maxwell equations are fully compatible with light's motion throuhg a medium, the principles proposed by Hooke (as in \S\ref{sub:over}) and used by Huygens in his wave theory serve as accurate approximations of optical interference and diffraction. By using Hooke's spherical propogation of light waves, Huygens and Fresnel developed an analyitical model of wave propogation:
 
@@ -292,8 +300,8 @@ x=L\cdot\frac\lambda{b}n
 To fit the data to these expressions, the \lstinline$optimize.curve_fit$ method provided by Python's SciPy library, which uses a method of minimising the sum of the squared residuals to fit a given function to a set of data. Defining \ref{fig:func} as a Python function with \lstinline$_l$ and \lstinline$_w$ as constants for the slit-screen distance $1.66m$ and the laser wavelength $6.238\times10^{-7} m$ as
 \begin{lstlisting}[belowskip=-1.5 \baselineskip]
 def func(n, *vars):
-  a, = vars
-  return _l*((_w/a)*n)
+  b, = vars
+  return _l*((_w/b)*n)
 \end{lstlisting}
 can then be used with NumPy arrays of the $n$ orders, $m$ positions of maxima or minima, and $s$ the uncertainty of $0.05cm$ in each measurement:
 \begin{lstlisting}[belowskip=-1.5 \baselineskip]
@@ -368,17 +376,26 @@ def func(n, *vars):
 \newpage
 \section{Summary of Results and Conclusion}
 
+The goal of this investigation was to use the Huygens-Fresnel principle, as outlined in Section \ref{sec:dev_theory}, to understand light diffraction phenomena. To do this, single and double slit experiments were conducted in an attempt to use the equations derived in Sections \ref{sec:single} and \ref{sec:double} to obtain estimate values for missing variables in each setup. 
 
+For the single-slit experiments, values for the slit width $b$ were obtained between $\sim60 \mu m$ and $\sim170\mu m$ (see Table \ref{tab:ss_results}), the expected region of dimensions for diffraction of light at $623.8nm$. The estimations of these slit widths can be quite confident, as the average standard deviation for the estimates was extremely small, ranging from $\sim 5pm$ to $\sim300pm$. Additionally, by analysing the value of $\chi^2_{\text{min}}$ per degree of freedom, the fitted equations can be confidently shown as a good fit for the data, as a $\chi^2_{\text{min}}/\text{NDoF}$ value close to 1 represents a good fit. With the exception of data set \lstinline$sb1$, all values were close to or below 1, and that particular set of data likely contained an outlier result, erronously measured. 
+
+For the double-slit experiments, values of the slit-screen distance $l$ were obtained between $\sim104cm$ to $\sim150cm$, the expected region of around 1 meter for the experiment equipment. Again, the standard deviation of the results were small, all around $11.5cm$, with variations only in the final few decimal places. While this standard deviation is higher than prefered, around the $10\%$ mark, it was not possible to extract large amounts of data at high accuracy from the images provided.
+
+From these results, a confident conclusion can be drawn. The Huygens-Fresnel principle is an accurate approximation of the theory of light, when demonstrated using optical diffraction of laser beams through single or double slit apertures, in the Fraunhofer regime.
 
 \newpage
 \begin{appendix}
 \section{Appendix}
+\subsection{Python Code}\label{sec:python}
+\lstinputlisting[language=Python,frame=single]{py.py}
+Full Python code outlining the data analysis methods used. By defining each data set in the arrays \lstinline$n$, \lstinline$m$, and \lstinline$s$, the curve-fitting functions will provide an estimate for the missing parameter. For the single-slit function, this missing parameter is the slit width. For the double-slit function, it is the slit-screen distance. 
+\clearpage
 \subsection{Bibliography}
 \emph{All works sourced from the Gutenberg Project are in the public domain.}
 \bibliographystyle{plainnat}
 \bibliography{export}
-\subsection{Python Code}\label{sec:python}
-%\lstinputlisting[language=Python,frame=single]{py.py}%
+
 
 \end{appendix}
 
