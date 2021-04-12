@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=pdflatex 2021.3.16)  12 APR 2021 13:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=pdflatex 2021.3.16)  12 APR 2021 13:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,17 +484,17 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 359.
 
 [10 </home/ash/uni/202021/2255_Stats/fr/ss_ex.png>] [11 </home/ash/uni/202021/2255_Stats/fr/ds_ex.png>] (/home/ash/uni/202021/2255_Stats/fr/py.py) [12] (/home/ash/uni/202021/2255_Stats/fr/final.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 402.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
  [13
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 402.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
  (/home/ash/uni/202021/2255_Stats/fr/final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 402.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 402.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
 Package rerunfilecheck Info: File `final.out' has not changed.
 (rerunfilecheck)             Checksum: 5FEAACB46823C5D89FC05DEB1AE69157;1328.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 402.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
  ) 
 Here is how much of TeX's memory you used:
  10720 strings out of 481644

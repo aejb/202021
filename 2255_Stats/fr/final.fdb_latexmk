@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex final"] 1618230147 "final.aux" "final.bbl" "final" 1618230224
+["bibtex final"] 1618230147 "final.aux" "final.bbl" "final" 1618230669
   "/usr/share/texmf/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   "export.bib" 1617721117 1129 f3207bac2fa0ecebf4b1aa976fab489b ""
-  "final.aux" 1618230224 12217 8185e45e2e53683285e0a590860b73a9 "pdflatex"
+  "final.aux" 1618230669 12217 8185e45e2e53683285e0a590860b73a9 "pdflatex"
   (generated)
   "final.bbl"
   "final.blg"
-["pdflatex"] 1618230223 "/home/ash/uni/202021/2255_Stats/fr/final.tex" "/home/ash/uni/202021/2255_Stats/fr/final.pdf" "final" 1618230224
+["pdflatex"] 1618230668 "/home/ash/uni/202021/2255_Stats/fr/final.tex" "/home/ash/uni/202021/2255_Stats/fr/final.pdf" "final" 1618230669
   "/etc/texmf/web2c/texmf.cnf" 1585222135 40414 09b1cea32668b6b60f5ddc4d89544168 ""
-  "/home/ash/uni/202021/2255_Stats/fr/final.aux" 1618230224 12217 8185e45e2e53683285e0a590860b73a9 ""
-  "/home/ash/uni/202021/2255_Stats/fr/final.tex" 1618230222 38437 c43f778c1ed8737d91afaea7c179259b ""
+  "/home/ash/uni/202021/2255_Stats/fr/final.aux" 1618230669 12217 8185e45e2e53683285e0a590860b73a9 ""
+  "/home/ash/uni/202021/2255_Stats/fr/final.tex" 1618230668 38434 40bd5b95fc867f967446a6af1311042d ""
   "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map" 1584924908 4811896 62a4b3942352306ffbbdb4a4844ec348 ""
@@ -144,11 +144,11 @@
   "double.png" 1617806153 100166 fa470beb6f7cfa108dbf58f2a47b62aa ""
   "ds_demo.png" 1617807801 30586 05d1f790a5e7c0cdfacfd43624fcd793 ""
   "ds_ex.png" 1618148869 24305 b3d22dfa439ac5ea964f39e5797f2b29 ""
-  "final.aux" 1618230224 12217 8185e45e2e53683285e0a590860b73a9 "pdflatex"
+  "final.aux" 1618230669 12217 8185e45e2e53683285e0a590860b73a9 "pdflatex"
   "final.bbl" 1618230147 1384 a2a51f5c610aef5451d6311bc5e08f91 "bibtex final"
-  "final.out" 1618230224 1328 5feaacb46823c5d89fc05deb1ae69157 "pdflatex"
-  "final.tex" 1618230222 38437 c43f778c1ed8737d91afaea7c179259b ""
-  "final.toc" 1618230224 1687 e5b0660d1007e4a862900a184a0ce78e "pdflatex"
+  "final.out" 1618230669 1328 5feaacb46823c5d89fc05deb1ae69157 "pdflatex"
+  "final.tex" 1618230668 38434 40bd5b95fc867f967446a6af1311042d ""
+  "final.toc" 1618230669 1687 e5b0660d1007e4a862900a184a0ce78e "pdflatex"
   "fraunhofer.png" 1617719184 109672 e1d5cf48123af76d5bc963131fc2392f ""
   "py.py" 1618229979 1285 48e62d0c1f767b29215045024da6f4ee ""
   "q2sa3.png" 1617978843 1724221 5a5a6b0b0bc3c5a6b12711bde0210cba ""
@@ -158,9 +158,9 @@
   "ss_ex.png" 1618138342 26501 80368ca8426be9b6d0739e6f6e76a15b ""
   (generated)
   "/home/ash/uni/202021/2255_Stats/fr/final.log"
-  "final.log"
-  "/home/ash/uni/202021/2255_Stats/fr/final.pdf"
   "final.aux"
   "final.toc"
-  "final.out"
   "final.pdf"
+  "/home/ash/uni/202021/2255_Stats/fr/final.pdf"
+  "final.out"
+  "final.log"
